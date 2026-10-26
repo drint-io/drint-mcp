@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.drint/drint",
+  "title": "Drint",
+  "description": "Packaging dielines (FEFCO/ECMA), 3D box and bag mockups, and your Drint projects in the chat.",
+  "version": "1.0.0",
+  "websiteUrl": "https://drint.io/help/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://drint.io/mcp"
+    }
+  ]
+}

@@ -53,6 +53,16 @@ claude mcp add --transport http drint https://drint.io/mcp
 gemini extensions install https://github.com/drint-io/drint-mcp
 ```
 
+**Cline** (`cline_mcp_settings.json`, or MCP Servers → Remote Servers)
+
+```json
+{
+  "mcpServers": {
+    "drint": { "type": "streamableHttp", "url": "https://drint.io/mcp" }
+  }
+}
+```
+
 **Perplexity, Grok, Le Chat, Meta Muse**: add a custom remote connector with the same URL and choose OAuth.
 
 ## Tools

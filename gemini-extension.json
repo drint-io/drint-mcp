@@ -1,0 +1,10 @@
+{
+  "name": "drint",
+  "version": "1.0.0",
+  "description": "Packaging dielines (FEFCO / ECMA) and 3D box and bag mockups from Drint, hosted at https://drint.io/mcp.",
+  "mcpServers": {
+    "drint": {
+      "httpUrl": "https://drint.io/mcp"
+    }
+  }
+}

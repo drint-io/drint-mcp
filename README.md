@@ -47,6 +47,12 @@ claude mcp add --transport http drint https://drint.io/mcp
 }
 ```
 
+**Gemini CLI**
+
+```bash
+gemini extensions install https://github.com/drint-io/drint-mcp
+```
+
 **Perplexity, Grok, Le Chat, Meta Muse**: add a custom remote connector with the same URL and choose OAuth.
 
 ## Tools

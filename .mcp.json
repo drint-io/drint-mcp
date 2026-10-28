@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "drint": {
+      "type": "http",
+      "url": "https://drint.io/mcp"
+    }
+  }
+}

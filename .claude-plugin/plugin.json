@@ -1,0 +1,13 @@
+{
+  "name": "drint",
+  "version": "1.0.0",
+  "description": "Packaging design in Claude Code: 3D box and bag mockups, and print-ready FEFCO / ECMA dielines at any size.",
+  "author": {
+    "name": "Drint",
+    "email": "support@drint.io",
+    "url": "https://drint.io"
+  },
+  "homepage": "https://drint.io/help/mcp",
+  "repository": "https://github.com/drint-io/drint-mcp",
+  "keywords": ["packaging", "dieline", "mockup", "fefco", "ecma", "print"]
+}

@@ -13,7 +13,7 @@ https://drint.io/mcp
 - Official MCP Registry: `io.drint/drint`
 - Docs: https://drint.io/help/mcp
 
-This repository holds documentation only. The server is run by Drint.
+This repository holds documentation and install manifests only (MCP Registry, Agent Plugins, Claude Code plugin, Gemini CLI extension). The server is run by Drint.
 
 ## Add it
 
@@ -25,6 +25,29 @@ This repository holds documentation only. The server is run by Drint.
 
 ```bash
 claude mcp add --transport http drint https://drint.io/mcp
+```
+
+or as a plugin from this repository:
+
+```text
+/plugin marketplace add drint-io/drint-mcp
+/plugin install drint@drint
+```
+
+**Codex**
+
+```bash
+codex mcp add drint --url https://drint.io/mcp
+```
+
+**Kiro**: Powers → Add Custom Power → GitHub → `https://github.com/drint-io/drint-mcp` (this repository is an [Agent Plugins](https://agent-plugins.org) package: `plugin.json` + `mcp.json`). Or add it to `~/.kiro/settings/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "drint": { "url": "https://drint.io/mcp" }
+  }
+}
 ```
 
 **Cursor** (`~/.cursor/mcp.json`)
@@ -63,7 +86,23 @@ gemini extensions install https://github.com/drint-io/drint-mcp
 }
 ```
 
-**Perplexity, Grok, Le Chat, Meta Muse**: add a custom remote connector with the same URL and choose OAuth.
+**Windsurf / Devin Desktop** (`mcp_config.json`)
+
+```json
+{
+  "mcpServers": {
+    "drint": { "serverUrl": "https://drint.io/mcp" }
+  }
+}
+```
+
+**goose**: `goose configure` → Add Extension → Remote Extension (Streamable HTTP) → `https://drint.io/mcp`, or open this link:
+
+```text
+goose://extension?type=streamable_http&url=https%3A%2F%2Fdrint.io%2Fmcp&id=drint&name=Drint&description=3D%20packaging%20mockups%20and%20print-ready%20dielines
+```
+
+**Perplexity, Grok, Le Chat, Meta Muse: add a custom remote connector with the same URL and choose OAuth.
 
 ## Tools
 

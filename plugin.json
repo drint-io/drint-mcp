@@ -10,5 +10,16 @@
   },
   "homepage": "https://drint.io/help/mcp",
   "repository": "https://github.com/drint-io/drint-mcp",
-  "keywords": ["packaging", "dieline", "mockup", "3d mockup", "fefco", "ecma", "box", "paper bag", "print"]
+  "license": "MIT",
+  "keywords": [
+    "packaging",
+    "dieline",
+    "mockup",
+    "3d mockup",
+    "fefco",
+    "ecma",
+    "box",
+    "paper bag",
+    "print"
+  ]
 }

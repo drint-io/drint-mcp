@@ -135,3 +135,7 @@ Mockups and dieline structures are free without an account. A free Drint account
 ## Support
 
 support@drint.io · [Privacy](https://drint.io/privacy) · [Terms](https://drint.io/terms)
+
+## License
+
+The files in this repository (documentation and install manifests) are MIT licensed, see [LICENSE](LICENSE). The Drint service at drint.io is covered by the [Drint Terms](https://drint.io/terms).

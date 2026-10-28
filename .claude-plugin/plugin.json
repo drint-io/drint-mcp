@@ -9,5 +9,13 @@
   },
   "homepage": "https://drint.io/help/mcp",
   "repository": "https://github.com/drint-io/drint-mcp",
-  "keywords": ["packaging", "dieline", "mockup", "fefco", "ecma", "print"]
+  "license": "MIT",
+  "keywords": [
+    "packaging",
+    "dieline",
+    "mockup",
+    "fefco",
+    "ecma",
+    "print"
+  ]
 }

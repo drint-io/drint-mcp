@@ -132,7 +132,7 @@ Tools that need an account answer HTTP 401 with `WWW-Authenticate`, so your AI o
 
 ## Plans
 
-Mockups and dieline structures are free without an account. A free Drint account includes 3 PDF / SVG dielines a month; Drint Pro removes the limits and adds DXF / CF2. See https://drint.io.
+Mockups and dieline structures are free without an account. A free Drint account includes 3 SVG dielines a month. PDF / AI, DXF and CF2 dielines need Drint Pro, which has no download limit. See https://drint.io.
 
 ## Support
 

@@ -1,3 +1,5 @@
+<img src="logo.png" alt="Drint" width="96" height="96">
+
 # Drint MCP server
 
 Packaging design in your AI chat: 3D box and bag mockups, and print-ready FEFCO / ECMA dielines at any size.

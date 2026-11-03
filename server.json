@@ -3,7 +3,14 @@
   "name": "io.drint/drint",
   "title": "Drint",
   "description": "Packaging dielines (FEFCO/ECMA), 3D box and bag mockups, and your Drint projects in the chat.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "icons": [
+    {
+      "src": "https://drint.io/brand/drint-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
   "websiteUrl": "https://drint.io/help/mcp",
   "remotes": [
     {

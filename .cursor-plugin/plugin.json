@@ -1,0 +1,17 @@
+{
+  "name": "drint",
+  "displayName": "Drint",
+  "version": "1.0.0",
+  "description": "Packaging design in Cursor: find 3D packaging mockups, open them in 3D, and get print-ready FEFCO / ECMA dielines at an exact size, through the hosted Drint MCP server.",
+  "author": {
+    "name": "Drint",
+    "email": "support@drint.io",
+    "url": "https://drint.io"
+  },
+  "homepage": "https://drint.io/help/mcp",
+  "repository": "https://github.com/drint-io/drint-mcp",
+  "license": "MIT",
+  "keywords": ["packaging", "dieline", "mockup", "3d", "fefco", "ecma", "print", "box", "mcp"],
+  "logo": "logo.png",
+  "mcpServers": ".mcp.json"
+}

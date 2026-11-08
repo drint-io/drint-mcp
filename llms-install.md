@@ -17,6 +17,6 @@ Drint is a hosted MCP server. There is nothing to clone, build or install, and n
 
 2. Check it works with a tool that needs no account: call `search_mockups` with `{"query": "kraft paper bag"}`. It returns a list of mockups.
 
-3. Tools that use the person's Drint account (`get_dieline`, `make_dieline`, `list_my_projects`, `open_my_project`, `review_inbox`, `send_to_3d_studio`, `my_drint`) answer HTTP 401 with `WWW-Authenticate`. The client then opens the Drint sign-in page in the browser (OAuth 2.1, Dynamic Client Registration, PKCE). The person signs in there; never ask them for a password or token.
+3. Tools that use the person's Drint account (`get_dieline`, `make_dieline`, `list_my_projects`, `open_my_project`, `review_inbox`, `get_3d_studio_link`, `my_drint`) answer HTTP 401 with `WWW-Authenticate`. The client then opens the Drint sign-in page in the browser (OAuth 2.1, Dynamic Client Registration, PKCE). The person signs in there; never ask them for a password or token.
 
 Docs: https://drint.io/help/mcp

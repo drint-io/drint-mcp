@@ -118,7 +118,7 @@ goose://extension?type=streamable_http&url=https%3A%2F%2Fdrint.io%2Fmcp&id=drint
 | `list_my_projects` | yes | Your Drint projects with thumbnails |
 | `open_my_project` | yes | One of your projects in 3D with your artwork on it |
 | `review_inbox` | yes | Work waiting for you in your Drint review inbox |
-| `send_to_3d_studio` | yes | A link that stages a project in Drint 3D Studio |
+| `get_3d_studio_link` | yes | A link that opens a project in Drint, ready to hand on to 3D Studio |
 | `my_drint` | yes | Your plan and the downloads left this month |
 
 Tools that need an account answer HTTP 401 with `WWW-Authenticate`, so your AI opens the Drint sign-in page. Your AI never sees your Drint password. Remove access any time in Drint → Account → Sign-in & security → Connected apps.
